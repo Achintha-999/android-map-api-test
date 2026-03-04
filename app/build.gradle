@@ -52,5 +52,8 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.loggin.interceptor)
     implementation libs.converter.gson
+    implementation(libs.android.maps.utils)
 
+    implementation libs.google.maps.services
+    implementation libs.slf4j.simple
 }
