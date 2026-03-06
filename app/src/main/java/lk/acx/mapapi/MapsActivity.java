@@ -99,7 +99,7 @@ public void onMapReady(GoogleMap googleMap) {
     enableMyLocation();
 
 
-    LatLng home = new LatLng(6.8207922, 79.9265374);
+    LatLng home = new LatLng(<YOUR_LatLng_HERE>);
 
 
     // mMap.addMarker(new MarkerOptions().position(home).title("Marker in Home"));
@@ -257,7 +257,7 @@ public void getDirection(LatLng start, LatLng end) {
     String origin = start.latitude + "," + start.longitude;
     String destination = end.latitude + "," + end.longitude;
 
-    String key = "AIzaSyDPgnoIcBy0siywFBaEiHHDI7q9RyOx9wo";
+    String key = "<YOUR API KEY HERE>";
 
 
     Call<JsonObject> apiJson = directionApi.getJson(origin, destination, key);
