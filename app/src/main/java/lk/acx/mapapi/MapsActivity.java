@@ -196,7 +196,7 @@ private final ExecutorService service = Executors.newSingleThreadExecutor();
 public void getDirectionWithApi(LatLng start, LatLng end) {
 
     service.execute(() -> {
-        String key = "AIzaSyDPgnoIcBy0siywFBaEiHHDI7q9RyOx9wo";
+        String key = "<YOUR API KEY IS HERE>";
 
         String origin = start.latitude + "," + start.longitude;
         String destination = end.latitude + "," + end.longitude;
