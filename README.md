@@ -192,6 +192,4 @@ Run:
 📌 Add a license if you plan to distribute this project publicly (MIT/Apache-2.0 recommended).
 
 ---
-
-### 📌 Note about completeness
-I fetched key files (Gradle, activity, layout, style JSON, etc.) but search results may be incomplete due to tool limitations. If you want, tell me your preferred style (minimal vs. very detailed) and I can tailor the README further (screenshots section, GIF demo, badges, troubleshooting, etc.).
+badges, troubleshooting, etc.).
