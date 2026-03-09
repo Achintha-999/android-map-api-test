@@ -187,9 +187,3 @@ Run:
 
 ---
 
-## 📄 License
-
-📌 Add a license if you plan to distribute this project publicly (MIT/Apache-2.0 recommended).
-
----
-badges, troubleshooting, etc.).
